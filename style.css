@@ -5,7 +5,7 @@ body{
 }
 
 .navbar{
-    background-color: rgb(200, 149, 248);
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,8 +24,44 @@ body{
 }
 
 .nav-items a{
-    color: black;
+    color: rgb(rgb(201, 138, 138), rgb(179, 114, 233), rgb(91, 91, 255));
     text-decoration: none;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 90vh;
+}
 
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text h1{
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image img{
+    width: 500px;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: linear-gradient(
+        180deg,
+        #f4c6b8 0%,
+        #a855f7 50%,
+        #3b0764 100%
+    );
+}
